@@ -1,0 +1,126 @@
+
+/* Class = "UITextField"; placeholder = "Type of place to service"; ObjectID = "6t4-mq-lJl"; */
+"6t4-mq-lJl.placeholder" = "نوع المكان المراد خدمته";
+
+/* Class = "UITextField"; placeholder = "Type of place to service"; ObjectID = "8ib-y4-LWQ"; */
+"8ib-y4-LWQ.placeholder" = "نوع المكان المراد خدمته";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "9P7-Jz-ATt"; */
+"9P7-Jz-ATt.title" = "الإعدادات";
+
+/* Class = "UINavigationItem"; title = "Providers"; ObjectID = "BOE-lg-s12"; */
+"BOE-lg-s12.title" = "Providers";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "BbN-Dl-13r"; */
+"BbN-Dl-13r.text" = "العنوان";
+
+/* Class = "UITextField"; placeholder = "Enter your phone"; ObjectID = "CCB-7m-WjW"; */
+"CCB-7m-WjW.placeholder" = "Enter your phone";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "DcX-Lx-hDQ"; */
+"DcX-Lx-hDQ.text" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Total"; ObjectID = "Igv-Dt-GHt"; */
+"Igv-Dt-GHt.placeholder" = "المجموع";
+
+/* Class = "UIButton"; normalTitle = "Deal"; ObjectID = "K2v-Uj-u6T"; */
+"K2v-Uj-u6T.normalTitle" = "اتفاق";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "K6c-9G-wIu"; */
+"K6c-9G-wIu.text" = "التاريخ";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "KNj-b7-qtY"; */
+"KNj-b7-qtY.placeholder" = "الكمية";
+
+/* Class = "UILabel"; text = "Total"; ObjectID = "MO7-it-sZt"; */
+"MO7-it-sZt.text" = "المجموع";
+
+/* Class = "UILabel"; text = "Other phone"; ObjectID = "MRh-sY-ZC5"; */
+"MRh-sY-ZC5.text" = "Other phone";
+
+/* Class = "UILabel"; text = "Type of service"; ObjectID = "Qaz-kd-WfC"; */
+"Qaz-kd-WfC.text" = "نوع الخدمة";
+
+/* Class = "UITextField"; placeholder = "Select date"; ObjectID = "T5Y-gd-zy7"; */
+"T5Y-gd-zy7.placeholder" = "حدد التاريخ";
+
+/* Class = "UINavigationItem"; title = "Notifications"; ObjectID = "TTS-or-lPm"; */
+"TTS-or-lPm.title" = "Notifications";
+
+/* Class = "UILabel"; text = "Phone*"; ObjectID = "TVW-id-pOm"; */
+"TVW-id-pOm.text" = "Phone*";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "WxD-7R-OJw"; */
+"WxD-7R-OJw.title" = "الإعدادات";
+
+/* Class = "UIButton"; normalTitle = "Attach Image"; ObjectID = "X9Q-9Q-y18"; */
+"X9Q-9Q-y18.normalTitle" = "ارفق صورة";
+
+/* Class = "UITextField"; placeholder = "Enter your email"; ObjectID = "Z7o-yB-9fW"; */
+"Z7o-yB-9fW.placeholder" = "أدخل بريدك الإلكتروني";
+
+/* Class = "UINavigationItem"; title = "My orders"; ObjectID = "cgS-Ag-ExQ"; */
+"cgS-Ag-ExQ.title" = "طلباتي";
+
+/* Class = "UITextField"; placeholder = "Enter other phone"; ObjectID = "f3N-t2-gFo"; */
+"f3N-t2-gFo.placeholder" = "Enter other phone";
+
+/* Class = "UIButton"; normalTitle = "Open Camera"; ObjectID = "jEc-Me-8X1"; */
+"jEc-Me-8X1.normalTitle" = "افتح الكاميرا";
+
+/* Class = "UITableViewController"; title = "Acceptances"; ObjectID = "kay-dA-JZn"; */
+"kay-dA-JZn.title" = "Acceptances";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "leH-5z-znn"; */
+"leH-5z-znn.text" = "الكمية";
+
+/* Class = "UITextField"; placeholder = "Add your address here"; ObjectID = "lp9-Ge-PVc"; */
+"lp9-Ge-PVc.placeholder" = "أضف عنوانك هنا";
+
+/* Class = "UITextField"; placeholder = "Select time"; ObjectID = "lug-HI-8Nh"; */
+"lug-HI-8Nh.placeholder" = "حدد الوقت";
+
+/* Class = "UIButton"; normalTitle = "Request"; ObjectID = "p1Z-Yx-aEb"; */
+"p1Z-Yx-aEb.normalTitle" = "اطلب";
+
+/* Class = "UITableViewController"; title = "Notifications"; ObjectID = "p8C-kv-d06"; */
+"p8C-kv-d06.title" = "Notifications";
+
+/* Class = "UITableViewController"; title = "My orders"; ObjectID = "tYk-8x-s8V"; */
+"tYk-8x-s8V.title" = "طلباتي";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "tkv-X2-s9Y"; */
+"tkv-X2-s9Y.text" = "الوقت";
+
+/* Class = "UITableViewController"; title = "Deal"; ObjectID = "uIM-vm-DPI"; */
+"uIM-vm-DPI.title" = "اتفاق";
+
+/* Class = "UILabel"; text = "Service Description"; ObjectID = "vjT-lr-Xll"; */
+"vjT-lr-Xll.text" = "وصف الخدمة";
+
+/* Class = "UIButton"; normalTitle = "Change language"; ObjectID = "6g6-yt-i3N"; */
+"6g6-yt-i3N.normalTitle" = "تغيير اللغة";
+
+/* Class = "UINavigationItem"; title = "Edit Profile"; ObjectID = "IeB-Li-hTd"; */
+"IeB-Li-hTd.title" = "تعديل بياناتي";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "L89-Sq-Paq"; */
+"L89-Sq-Paq.placeholder" = "الاسم";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "kj5-xp-AMn"; */
+"kj5-xp-AMn.placeholder" = "اسم المستخدم";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "6bn-Gf-nWU"; */
+"6bn-Gf-nWU.placeholder" = "البريد الإلكتروني";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "IOD-JD-K0e"; */
+"IOD-JD-K0e.placeholder" = "رقم الجوال";
+
+/* Class = "UITextField"; placeholder = "New password"; ObjectID = "CaT-sP-XSb"; */
+"CaT-sP-XSb.placeholder" = "كلمة السر الجديدة";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "ijf-JG-u3r"; */
+"ijf-JG-u3r.normalTitle" = "حفظ";
+
+/* Class = "UIButton"; normalTitle = "Reset password"; ObjectID = "uJC-mu-T2q"; */
+"uJC-mu-T2q.normalTitle" = "";

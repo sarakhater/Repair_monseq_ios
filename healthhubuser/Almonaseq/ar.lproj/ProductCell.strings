@@ -1,0 +1,22 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Vs-l3-kLa"; */
+"0Vs-l3-kLa.text" = "Label";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "KS0-oU-xEJ"; */
+"KS0-oU-xEJ.text" = "الوصف : ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Wz0-qu-34Q"; */
+"Wz0-qu-34Q.text" = "Label";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "Xs4-dx-wRP"; */
+"Xs4-dx-wRP.text" = "اسم المنتج : ";
+
+/* Class = "UILabel"; text = "StoreName:"; ObjectID = "iQX-vd-ad1"; */
+"iQX-vd-ad1.text" = "اسم  المتجر : ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qEu-Lg-vjp"; */
+"qEu-Lg-vjp.text" = "Label";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "yLq-PK-ypo"; */
+"yLq-PK-ypo.text" = "price";
+

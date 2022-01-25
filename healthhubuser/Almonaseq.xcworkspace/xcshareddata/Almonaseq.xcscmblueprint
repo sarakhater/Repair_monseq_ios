@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FDEBD7BBA51A41CAF202D863BFF3190038723058",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FDEBD7BBA51A41CAF202D863BFF3190038723058" : 9223372036854775807,
+    "63BAAAF7F93E6445C8CFCD8053FB850B30E52E73" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "41E8A1AB-AC0E-456C-ADB5-E3D988A96E86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FDEBD7BBA51A41CAF202D863BFF3190038723058" : "Almonaseq\/",
+    "63BAAAF7F93E6445C8CFCD8053FB850B30E52E73" : "..\/..\/LuxuriousApp\/luxurious"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Almonaseq",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Almonaseq.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:nelhakim\/luxurious.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63BAAAF7F93E6445C8CFCD8053FB850B30E52E73"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:nelhakim\/almonaseq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FDEBD7BBA51A41CAF202D863BFF3190038723058"
+    }
+  ]
+}

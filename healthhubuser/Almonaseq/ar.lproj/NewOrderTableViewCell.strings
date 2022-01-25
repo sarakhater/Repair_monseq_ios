@@ -1,0 +1,55 @@
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "16W-kN-eIU"; */
+"16W-kN-eIU.text" = "Date";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "1te-Bt-YXT"; */
+"1te-Bt-YXT.text" = "Status";
+
+/* Class = "UILabel"; text = "Provider Information"; ObjectID = "8eF-uX-4gT"; */
+"8eF-uX-4gT.text" = "بيانات الطبيب";
+
+/* Class = "UIButton"; normalTitle = "  Cancel Technician  "; ObjectID = "9MU-5t-y3U"; */
+"9MU-5t-y3U.normalTitle" = "  Cancel Doctor  ";
+
+/* Class = "UIButton"; normalTitle = "Start Chatting"; ObjectID = "C8B-US-MNf"; */
+"C8B-US-MNf.normalTitle" = "إبدأ المحادثة";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "EIj-lV-d0T"; */
+"EIj-lV-d0T.normalTitle" = "Cancel Order";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "Gtc-Vl-JcI"; */
+"Gtc-Vl-JcI.text" = "الوصف";
+
+/* Class = "UILabel"; text = "OrderNo:"; ObjectID = "Jdj-u2-5gy"; */
+"Jdj-u2-5gy.text" = "رقم الطلب:";
+
+/* Class = "UILabel"; text = "Mobile:"; ObjectID = "NM6-nr-ou7"; */
+"NM6-nr-ou7.text" = "التليفون:";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "Q6F-1F-8nX"; */
+"Q6F-1F-8nX.text" = "الاسم:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TPi-qD-OjM"; */
+"TPi-qD-OjM.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cmm-dz-QPc"; */
+"cmm-dz-QPc.text" = "Label";
+
+/* Class = "UILabel"; text = "123"; ObjectID = "dmc-2h-8fI"; */
+"dmc-2h-8fI.text" = "123";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "fJw-Qr-Sgm"; */
+"fJw-Qr-Sgm.text" = "time";
+
+/* Class = "UILabel"; text = "cairo"; ObjectID = "fKt-4q-IZg"; */
+"fKt-4q-IZg.text" = "cairo";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "ilm-y2-On9"; */
+"ilm-y2-On9.text" = "العنوان:";
+
+/* Class = "UILabel"; text = "Service:"; ObjectID = "o1v-gs-wyT"; */
+"o1v-gs-wyT.text" = "الخدمة:";
+
+
+/* Class = "UILabel"; text = Description:; ObjectID = "IIq-G3-ve2"; */
+"IIq-G3-ve2.text" = "الوصف:";

@@ -1,0 +1,42 @@
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "05N-AP-qte"; */
+"05N-AP-qte.title" = "الرئيسية";
+
+/* Class = "UILabel"; text = "Other phone:"; ObjectID = "2bx-s8-Dzb"; */
+"2bx-s8-Dzb.text" = "هاتف آخر:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8AG-rP-E2L"; */
+"8AG-rP-E2L.text" = "";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "8Q4-zD-A0O"; */
+"8Q4-zD-A0O.text" = "البريد الإلكتروني:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8e7-jn-62O"; */
+"8e7-jn-62O.text" = "";
+
+/* Class = "UILabel"; text = "Experience:"; ObjectID = "8jK-TF-DrW"; */
+"8jK-TF-DrW.text" = "سنين الخبرة:";
+
+/* Class = "UILabel"; text = "Service price per hour:"; ObjectID = "8lK-u6-d3O"; */
+"8lK-u6-d3O.text" = "سعر الخدمة بالساعة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Bf8-PQ-KIc"; */
+"Bf8-PQ-KIc.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Deal"; ObjectID = "GZW-bj-1Qa"; */
+"GZW-bj-1Qa.normalTitle" = "اختيار";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZpJ-2v-96y"; */
+"ZpJ-2v-96y.text" = "";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aJV-yT-3k9"; */
+"aJV-yT-3k9.text" = "";
+
+/* Class = "UILabel"; text = "Service price per day:"; ObjectID = "hny-qD-lke"; */
+"hny-qD-lke.text" = "سعر الخدمة باليوم:";
+
+/* Class = "UILabel"; text = "Mobile number:"; ObjectID = "wkS-g5-UfC"; */
+"wkS-g5-UfC.text" = "رقم الجوال:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zhw-so-esD"; */
+"zhw-so-esD.text" = "";

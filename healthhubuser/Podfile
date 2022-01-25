@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Almonaseq' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Almonaseq
+  pod 'Alamofire', '~> 4.5'
+  pod 'SwiftyStarRatingView'
+  pod 'SideMenu'
+    pod 'SwiftyJSON'
+pod 'KVSpinnerView'
+pod 'DatePickerDialog'
+pod 'Toaster'
+pod 'MaterialTextField', '~> 0.2'
+pod 'LocationPicker', '~> 1.1.0'
+pod 'SDWebImage', '~> 3.7'
+pod 'Firebase/Core'
+pod 'Firebase/Messaging'
+#pod 'Firebase/Messaging', '~> 4.0.0'
+
+pod 'DateTimePicker'
+pod 'UICheckbox.Swift', '~> 1.0'
+pod 'ActionSheetPicker-3.0'
+pod 'SimpleImageViewer', '~> 1.1.1'
+pod 'MaterialControls', '~> 1.2.2'
+pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
+#pod 'FirebaseInstanceID', '~> 2.0.0'
+#pod 'FirebaseMessaging'
+pod 'AlamofireObjectMapper'
+pod 'SVProgressHUD'
+pod 'GradientView', '~> 2.3'
+pod 'HWSwiftyViewPager', '~> 1.2'
+pod 'FSPagerView', '~> 0.8'
+#pod 'SwiftMessages'
+pod 'SwiftMessages', '~> 5.0'
+pod "SWSegmentedControl"
+pod 'ExpandableTableViewController', '~> 2.1'
+
+
+
+
+#pod 'BIObjCHelpers'
+#pod 'IQKeyboardManager', '~> 4.0.2'
+#pod 'AFNetworking'
+#pod 'Mantle'
+#pod 'Reachability'
+#pod 'Lockbox'
+#pod 'SBJson'
+#pod 'PINCache'
+#pod 'MBProgressHUD', '~> 1.1.0'
+# In case if you are using OCR version
+  #pod 'PayCardsRecognizer'
+
+end

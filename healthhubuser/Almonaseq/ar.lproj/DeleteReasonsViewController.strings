@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Choose delete reason"; ObjectID = "Dtx-aj-Agd"; */
+"Dtx-aj-Agd.placeholder" = "اختار سبب للحذف";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "P9n-3m-cZO"; */
+"P9n-3m-cZO.normalTitle" = "إلغاء الطلب";
+
+/* Class = "UILabel"; text = "Choose Delete Reason"; ObjectID = "cQS-l3-8zT"; */
+"cQS-l3-8zT.text" = "اختار";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "hJU-Nq-mSr"; */
+"hJU-Nq-mSr.normalTitle" = "إغلاق";

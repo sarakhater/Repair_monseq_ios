@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  Almonaseq
+
+  Created by Nada El Hakim on 2/28/18.
+  Copyright © 2018 Nada El Hakim. All rights reserved.
+*/
+
+"order.tip" = "اختر الفني وتواصل معه. اذا لم يتم الاتفاق, اعمل ' تغيير الفني' واختر اخر";
+"menu.home" = "الرئيسية";
+"menu.materialList" = "قائمة المواد";
+"menu.profile" = "تعديل بياناتي";
+"menu.chat" = "المحادثات";
+"menu.myOrder" = "طلباتي";
+"menu.about" = "من نحن";
+"menu.faqs" = "الأسئلة الشائعة";
+"menu.settings" = "الإعدادات";
+"menu.login" = "تسجيل الدخول";
+"menu.logout" = "تسجيل الخروج";
+"menu.contact" = "خدمة العملاء";
+"menu.share" = "مشاركة التطبيق";
+"menu.canceledOrder" = "الطلبات الملغية";
+"menu.pendingOrder" = "طلبات قيد التنفيذ";
+"menu.CompletedOrder" = "طلبات مكتملة";
+"menu.waitedOrder" = "طلبات قيد الانتظار";
+"menu.notification" = "الإشعارات";
+
+//Repair Menu
+"menu.repair_about" = "عن صلح";
+"menu.price_list" = "قائمة الأسعار";
+"menu.customer_services" = "خدمة العملاء";
+"menu.register_as_tech" = "سجل كفني";
+"menu.settings" = "الإعدادات";
+"menu.share.repair" = "شارك صلح";
+"menu.logout" = "تسجيل الخروج";
+
+
+// Orders
+orders.pending = "قيد التنفيذ";
+orders.completed = "مكتمل";
+orders.awaitingApproval = "قيد الانتظار";
+orders.executionFinished = "انتهي التنفيذ";
+orders.accept =  "اختر الفني";
+orders.addRate = "أضف تقييم";
+order.empty = "مرحباً بك في هيلث هب ";
+orders.cancelTechnician = "تغيير الفني";
+orders.cancelOrder = "إلغاء الطلب";
+orders.alert.deleteOrder = "هل انت متأكد من الغاء الطلب؟";
+orders.alert.title = "تنبيه";
+orders.alert.deleteTecnician = "هل انت متأكد من تغيير الفني ؟";
+orders.alert.ok = "موافق";
+orders.alert.cancel = "إلغاء";
+orders.noRequets = "لا يوجد طلبات";
+order.canceled = "انتهي التنفيذ";
+
+// Register
+register.terms = "الأحكام والشروط";
+
+// Form errors
+formErrors.checkTerms = "يرجى التحقق من الشروط والأحكام";
+formErrors.checkPhone = "رقم الجوال يجب ان يكون مثل (05xxxxxxxx)";
+formErrors.required = "يرجى إدخال البيانات";
+formErrors.match = "كلمات المرور غير متطابقة";
+
+// Welcome alert
+alert.title = "أمين";
+alert.message = "ترحب بكم و تشكركم على استخدامكم تطبيق فني الأحساء - طالب خدمة. اذا كنت مقدم خدمة (فني)، تستطيع تحميل تطبيق (فني الأحساء - مقدم خدمة)";
+alert.cancel = "إغلاق";
+alert.downloadApp = "تحميل التطبيق";
+
+//Language alert
+alert.ok = "موافق";
+alert.confirm = "رسالة تأكيد";
+alert.languageMessage = "تغيير لغة التطبيق إلى اللغة الإنجليزية";
+
+review.addComment = "أضف تعليق";
+app.currency = "ريال";
+
+actionsheet.selectservicetype = "اختار نوع الخدمة";
+register.confirmPhoneNumber = "تأكد من  إعادة رقم الجوال ";
+register.confirmPassword = "تأكد من كلمة المرور";
+app.share.android = " مشاركة تطبيق الصحة مع الأصدقاء للأندرويد";
+app.share.ios = "مشاركة تطبيق  الصحة مع الأصدقاء للأيفون";
+waitlabel = " انتظر 3 دقائق قبل إعادة إرسال الكود ";
+orlabel = " أو ";
+
+rating.excellent = "ممتاز";
+rating.vgood = "جيد جدا";
+rating.good = "جيد";
+rating.bad = "مقبول";
+rating.vbad = "ضعيف";
+rating.error = "من فضلك اختر طريقة الدفع";
+
+register.checkConfirmPassword = "من فضلك تأكد من كلمة المرور";
+register.completeAllFields = "برجاء املاء كل البيانات";
+actionsheet.selectTypetype = "اختر النوع";
+actionsheet.selectBrandtype = "اختر الماركة";
+
+
+tab.services = "الخدمات";
+tab.orders = "الطلبات";
+tab.notification = "الإشعارات";
+tab.about = "من نحن";
+tab.contactus = "اتصل بنا";
+done = "تم";
+cancel = "إلغاء";
+Description = "الوصف";

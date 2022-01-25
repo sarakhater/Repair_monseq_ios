@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "B5d-oL-h0e"; */
+"B5d-oL-h0e.text" = "التكلفة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "GPE-wL-Zb6"; */
+"GPE-wL-Zb6.text" = "Label";
+
+/* Class = "UILabel"; text = "5/5"; ObjectID = "Uf4-2Q-yDn"; */
+"Uf4-2Q-yDn.text" = "5/5";
+
+/* Class = "UIButton"; normalTitle = "Select Techniation"; ObjectID = "Vad-N2-gBR"; */
+"Vad-N2-gBR.normalTitle" = "اختر الفني";
+
+/* Class = "UILabel"; text = "Service Type:"; ObjectID = "Vdu-we-1Gb"; */
+"Vdu-we-1Gb.text" = "نوع الخدمة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eoE-bM-E3G"; */
+"eoE-bM-E3G.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "frA-EV-rSP"; */
+"frA-EV-rSP.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ien-35-0Xq"; */
+"ien-35-0Xq.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "krG-eg-cTf"; */
+"krG-eg-cTf.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "pbw-CH-Ycc"; */
+"pbw-CH-Ycc.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "xc4-j0-e8f"; */
+"xc4-j0-e8f.text" = "المدينة:";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "zZP-eo-gGA"; */
+"zZP-eo-gGA.normalTitle" = "Button";

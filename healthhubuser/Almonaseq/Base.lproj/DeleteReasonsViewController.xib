@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna-LT-Bold.ttf">
+            <string>JannaLT-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DeleteReasonsViewController" customModule="صلح_Repair" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelOrderBtn" destination="P9n-3m-cZO" id="hZs-Md-7Ve"/>
+                <outlet property="closeBtn" destination="hJU-Nq-mSr" id="VL0-bq-8eI"/>
+                <outlet property="deleteReasonTextField" destination="Dtx-aj-Agd" id="vsD-LM-pia"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="190"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Choose delete reason" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dtx-aj-Agd">
+                    <rect key="frame" x="16" y="46" width="424" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="OuP-Tx-Ozt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="underlineHeight">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="underlineEditingHeight">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="expand" translatesAutoresizingMaskIntoConstraints="NO" id="MJo-Lf-s43" customClass="exp">
+                    <rect key="frame" x="412" y="59" width="16" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="GRK-BZ-CdC"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9n-3m-cZO">
+                    <rect key="frame" x="87" y="109" width="282" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.21118947860000001" blue="0.40192675589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="RTK-De-pfJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="17"/>
+                    <state key="normal" title="Cancel Order">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelOrderClicked:" destination="-1" eventType="touchUpInside" id="jPw-bE-6ix"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Delete Reason" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQS-l3-8zT">
+                    <rect key="frame" x="26" y="14" width="410" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="v55-Mt-m6I"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJU-Nq-mSr">
+                    <rect key="frame" x="87" y="152" width="282" height="30"/>
+                    <color key="backgroundColor" red="0.20016634459999999" green="0.19206550720000001" blue="0.19611731169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3pv-fW-CVp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="17"/>
+                    <state key="normal" title="Close">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="closeBtnClicked:" destination="-1" eventType="touchUpInside" id="z9Q-TT-Qhr"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="P9n-3m-cZO" secondAttribute="trailing" constant="87" id="1V4-7W-hsd"/>
+                <constraint firstItem="hJU-Nq-mSr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="87" id="7kZ-tg-h7q"/>
+                <constraint firstItem="Dtx-aj-Agd" firstAttribute="top" secondItem="cQS-l3-8zT" secondAttribute="bottom" constant="15" id="CiQ-Dd-Lsa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MJo-Lf-s43" secondAttribute="trailing" constant="28" id="TCN-m5-9SH"/>
+                <constraint firstItem="P9n-3m-cZO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="87" id="ToJ-IY-Bru"/>
+                <constraint firstItem="P9n-3m-cZO" firstAttribute="top" secondItem="Dtx-aj-Agd" secondAttribute="bottom" constant="13" id="UzV-NU-QWi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cQS-l3-8zT" secondAttribute="trailing" constant="20" id="WbG-iB-8F5"/>
+                <constraint firstItem="hJU-Nq-mSr" firstAttribute="top" secondItem="P9n-3m-cZO" secondAttribute="bottom" constant="13" id="emp-vr-Owx"/>
+                <constraint firstItem="MJo-Lf-s43" firstAttribute="top" secondItem="Dtx-aj-Agd" secondAttribute="bottom" constant="-37" id="f9m-3A-hXT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hJU-Nq-mSr" secondAttribute="trailing" constant="87" id="ids-YB-XUT"/>
+                <constraint firstItem="Dtx-aj-Agd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="iuX-tP-4zQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Dtx-aj-Agd" secondAttribute="trailing" constant="16" id="jVG-5C-FJN"/>
+                <constraint firstItem="cQS-l3-8zT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="14" id="qfY-iu-hqm"/>
+                <constraint firstItem="MJo-Lf-s43" firstAttribute="centerY" secondItem="Dtx-aj-Agd" secondAttribute="centerY" constant="-2" id="xpz-ri-xze"/>
+                <constraint firstItem="cQS-l3-8zT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="26" id="zEG-it-VyU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="267.19999999999999" y="-269.86506746626691"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="expand" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "time"; ObjectID = "0rp-jn-qko"; */
+"0rp-jn-qko.text" = "time";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "9kw-4k-YSR"; */
+"9kw-4k-YSR.text" = "Status";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Jo5-VO-IZh"; */
+"Jo5-VO-IZh.text" = "Date";
+
+/* Class = "UILabel"; text = "OrderNo:"; ObjectID = "MWP-tv-y8T"; */
+"MWP-tv-y8T.text" = "رقم الطلب:";
+
+/* Class = "UILabel"; text = "Service:"; ObjectID = "OLP-L8-84u"; */
+"OLP-L8-84u.text" = "الخدمة:";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "QtB-Ue-Yrj"; */
+"QtB-Ue-Yrj.text" = "الإسم:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X3p-y1-leK"; */
+"X3p-y1-leK.text" = "Label";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "bH7-0X-tPk"; */
+"bH7-0X-tPk.text" = "العنوان:";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "nX0-c9-Ksg"; */
+"nX0-c9-Ksg.text" = "Description";
+
+/* Class = "UILabel"; text = "Provider Information"; ObjectID = "pQQ-Kx-XV2"; */
+"pQQ-Kx-XV2.text" = "بيانات الطبيب";
+
+/* Class = "UILabel"; text = Description:; ObjectID = "3s5-0I-Bvh"; */
+"3s5-0I-Bvh.text" = " الوصف:";

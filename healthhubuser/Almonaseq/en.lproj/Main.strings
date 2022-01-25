@@ -1,0 +1,15 @@
+
+/* Class = "UIViewController"; title = "Intro"; ObjectID = "Sxb-gM-7p2"; */
+"Sxb-gM-7p2.title" = "مقدمة";
+
+/* Class = "UITableViewController"; title = "My orders"; ObjectID = "bog-6V-yIV"; */
+"bog-6V-yIV.title" = "طلباتي";
+
+/* Class = "UINavigationItem"; title = "Main menu"; ObjectID = "ebV-uj-JWO"; */
+"ebV-uj-JWO.title" = "القائمة الرئيسية";
+
+/* Class = "UIButton"; normalTitle = "Order Services"; ObjectID = "kYR-7n-Qdy"; */
+"kYR-7n-Qdy.normalTitle" = "طلب خدمات";
+
+/* Class = "UIButton"; normalTitle = "Order Materials"; ObjectID = "uSa-A4-nUr"; */
+"uSa-A4-nUr.normalTitle" = "طلب مواد";

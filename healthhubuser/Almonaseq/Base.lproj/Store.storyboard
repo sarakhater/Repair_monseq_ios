@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Materials List-->
+        <scene sceneID="rWn-ED-Y7x">
+            <objects>
+                <collectionViewController storyboardIdentifier="StoresVC" id="Od7-I0-qyJ" customClass="StoresVC" customModule="Almonaseq" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3at-6x-SSj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" sectionInsetReference="layoutMargins" id="4IZ-cC-4Po">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="50" height="120"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="koK-Yi-FIx">
+                                <rect key="frame" x="8" y="128" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="LogoHeader" id="v9k-d8-98Q">
+                            <rect key="frame" x="0.0" y="8" width="375" height="120"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="qSP-u1-8tl">
+                                    <rect key="frame" x="117" y="8" width="136" height="104"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="qSP-u1-8tl" firstAttribute="centerY" secondItem="v9k-d8-98Q" secondAttribute="centerY" id="xbr-Pt-baE"/>
+                                <constraint firstItem="qSP-u1-8tl" firstAttribute="centerX" secondItem="v9k-d8-98Q" secondAttribute="centerX" constant="-2.5" id="yQf-YG-41q"/>
+                            </constraints>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="Od7-I0-qyJ" id="heZ-id-GnH"/>
+                            <outlet property="delegate" destination="Od7-I0-qyJ" id="CyQ-u2-PL2"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Materials List" id="tYv-VQ-vtN"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p9O-V8-tkW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3728.8000000000002" y="-758.77061469265368"/>
+        </scene>
+        <!--ProductsVC-->
+        <scene sceneID="DxQ-kY-im7">
+            <objects>
+                <collectionViewController storyboardIdentifier="ProductsVC" id="S6t-fh-6P8" customClass="ProductsVC" customModule="Almonaseq" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="U93-vo-dUy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3fM-Mj-oOY">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="50" height="120"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="20" minY="20" maxX="20" maxY="20"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ZAc-er-GUJ">
+                                <rect key="frame" x="20" y="140" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="LogoHeader" id="qO7-Dx-4sz">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="1Fm-sP-3ia">
+                                    <rect key="frame" x="117" y="8" width="140" height="104"/>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="1Fm-sP-3ia" firstAttribute="centerX" secondItem="qO7-Dx-4sz" secondAttribute="centerX" id="Ag7-3E-JSH"/>
+                                <constraint firstItem="1Fm-sP-3ia" firstAttribute="centerY" secondItem="qO7-Dx-4sz" secondAttribute="centerY" id="Ckp-yc-hXg"/>
+                            </constraints>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="S6t-fh-6P8" id="O2v-am-XvW"/>
+                            <outlet property="delegate" destination="S6t-fh-6P8" id="gVX-t5-Z2p"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VHt-Pw-ckE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4469.6000000000004" y="-762.36881559220399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="142" height="187"/>
+    </resources>
+</document>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna-LT-Bold.ttf">
+            <string>JannaLT-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewDeleteOrdersViewController" customModule="صلح_Repair" customModuleProvider="target">
+            <connections>
+                <outlet property="bigView" destination="Qdc-lD-aPS" id="w8i-jH-WAT"/>
+                <outlet property="cancelOrderButton" destination="yQV-xc-6m3" id="cm3-Vc-S9h"/>
+                <outlet property="reasonTextView" destination="dVT-Oc-7jk" id="g7V-9U-ALq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="365"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdc-lD-aPS">
+                    <rect key="frame" x="7" y="7" width="361" height="351"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Write Delete Reason" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32U-R8-KfZ">
+                            <rect key="frame" x="97.5" y="15" width="166" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Write reason here." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dVT-Oc-7jk">
+                            <rect key="frame" x="8" y="53" width="345" height="176"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQV-xc-6m3">
+                            <rect key="frame" x="70.5" y="244" width="220" height="43"/>
+                            <color key="backgroundColor" red="1" green="0.21118947860000001" blue="0.40192675589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="220" id="bsI-mP-xFI"/>
+                                <constraint firstAttribute="height" constant="43" id="ige-en-z7b"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="16"/>
+                            <state key="normal" title="Cancel Order">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelOrders:" destination="-1" eventType="touchUpInside" id="LVw-2G-jAn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqq-GA-Ryf">
+                            <rect key="frame" x="70.5" y="303" width="220" height="43"/>
+                            <color key="backgroundColor" red="0.20016634459999999" green="0.19206550720000001" blue="0.19611731169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="43" id="Qac-I8-YX0"/>
+                                <constraint firstAttribute="width" constant="220" id="ebX-Yh-XbQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="16"/>
+                            <state key="normal" title="Close">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="dismissControler:" destination="-1" eventType="touchUpInside" id="0aV-dV-vD8"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="kqq-GA-Ryf" firstAttribute="top" secondItem="yQV-xc-6m3" secondAttribute="bottom" constant="16" id="785-pu-fFp"/>
+                        <constraint firstItem="32U-R8-KfZ" firstAttribute="top" secondItem="Qdc-lD-aPS" secondAttribute="top" constant="15" id="7DP-Ce-XDm"/>
+                        <constraint firstItem="kqq-GA-Ryf" firstAttribute="centerX" secondItem="Qdc-lD-aPS" secondAttribute="centerX" id="94m-DT-uzj"/>
+                        <constraint firstItem="dVT-Oc-7jk" firstAttribute="top" secondItem="32U-R8-KfZ" secondAttribute="bottom" constant="17" id="BRY-2O-Qbh"/>
+                        <constraint firstItem="yQV-xc-6m3" firstAttribute="centerX" secondItem="Qdc-lD-aPS" secondAttribute="centerX" id="DmR-EK-vn1"/>
+                        <constraint firstItem="dVT-Oc-7jk" firstAttribute="centerX" secondItem="Qdc-lD-aPS" secondAttribute="centerX" id="P7G-KE-CQr"/>
+                        <constraint firstItem="32U-R8-KfZ" firstAttribute="centerX" secondItem="Qdc-lD-aPS" secondAttribute="centerX" id="ch2-lS-bgj"/>
+                        <constraint firstAttribute="trailing" secondItem="dVT-Oc-7jk" secondAttribute="trailing" constant="8" id="dkI-ah-5Oh"/>
+                        <constraint firstAttribute="bottom" secondItem="kqq-GA-Ryf" secondAttribute="bottom" constant="5" id="ey0-aL-cEn"/>
+                        <constraint firstItem="yQV-xc-6m3" firstAttribute="top" secondItem="dVT-Oc-7jk" secondAttribute="bottom" constant="15" id="vH3-ND-xHC"/>
+                        <constraint firstItem="dVT-Oc-7jk" firstAttribute="leading" secondItem="Qdc-lD-aPS" secondAttribute="leading" constant="8" id="xhZ-Da-6zA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Qdc-lD-aPS" secondAttribute="trailing" constant="7" id="0Nq-PI-cEc"/>
+                <constraint firstItem="Qdc-lD-aPS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="7" id="2Pl-9Q-vHu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Qdc-lD-aPS" secondAttribute="bottom" constant="7" id="mL8-7O-R3F"/>
+                <constraint firstItem="Qdc-lD-aPS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="7" id="vpb-BR-g08"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="117.59999999999999" y="-190.25487256371815"/>
+        </view>
+    </objects>
+</document>

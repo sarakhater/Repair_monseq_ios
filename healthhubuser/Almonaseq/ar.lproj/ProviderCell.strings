@@ -1,0 +1,25 @@
+
+
+/* Class = "UIButton"; normalTitle = "View"; ObjectID = "B3U-al-iN0"; */
+"B3U-al-iN0.normalTitle" = "اختيار"
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IWR-3s-9eb"; */
+"IWR-3s-9eb.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "IvY-L8-kDB"; */
+"IvY-L8-kDB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QBo-DZ-c08"; */
+"QBo-DZ-c08.text" = "Label";
+
+/* Class = "UILabel"; text = "Price per day:"; ObjectID = "U4s-1y-ezI"; */
+"U4s-1y-ezI.text" = "سعر الخدمة باليوم:";
+/* Class = "UILabel"; text = "Price per hour:"; ObjectID = "hE2-cu-08B"; */
+"hE2-cu-08B.text" = "سعر الخدمة بالساعة:";
+/* Class = "UILabel"; text = "Nationality:"; ObjectID = "sIj-D2-FSU"; */
+"sIj-D2-FSU.text" = "الجنسية:";
+
+
+
+/* Class = "UILabel"; text = "Experience:"; ObjectID = "ATg-9Z-b1l"; */
+"ATg-9Z-b1l.text" = "الخبرة:";

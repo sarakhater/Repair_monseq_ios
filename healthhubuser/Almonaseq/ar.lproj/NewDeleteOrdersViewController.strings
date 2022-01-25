@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = " Write Delete Reason"; ObjectID = "32U-R8-KfZ"; */
+"32U-R8-KfZ.text" = " أكتب سبب إلغاء الطلب";
+
+/* Class = "UITextView"; text = "Write reason here."; ObjectID = "dVT-Oc-7jk"; */
+"dVT-Oc-7jk.text" = "أكتب السبب  هنا .....";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "kqq-GA-Ryf"; */
+"kqq-GA-Ryf.normalTitle" = "إغلاق";
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "yQV-xc-6m3"; */
+"yQV-xc-6m3.normalTitle" = "إلغاء الطلب";

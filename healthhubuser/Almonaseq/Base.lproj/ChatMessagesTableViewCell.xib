@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna-LT-Bold.ttf">
+            <string>JannaLT-Bold</string>
+        </array>
+        <array key="Janna-LT-Regular.ttf">
+            <string>JannaLT-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatMessagesTableViewCell" rowHeight="108" id="KGk-i7-Jjw" customClass="ChatMessagesTableViewCell" customModule="أمين" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yut-hP-7bG">
+                        <rect key="frame" x="23" y="6" width="301" height="97"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MaskGroup1" translatesAutoresizingMaskIntoConstraints="NO" id="wSQ-Sp-bDH">
+                                <rect key="frame" x="3" y="14" width="36" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="LTI-Vv-GUk"/>
+                                    <constraint firstAttribute="width" constant="36" id="MaJ-vK-Lu7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hi3-I5-DoP">
+                                <rect key="frame" x="257" y="14" width="35.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Iey-up-1RW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hs4-F7-azB">
+                                <rect key="frame" x="47" y="39" width="246" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="yYM-5T-GeL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="13"/>
+                                <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgJ-S6-iAY">
+                                <rect key="frame" x="8" y="66" width="32" height="15"/>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="13"/>
+                                <color key="textColor" red="0.1930809617" green="0.71957141160000004" blue="0.6803856492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kgJ-S6-iAY" firstAttribute="top" secondItem="hs4-F7-azB" secondAttribute="bottom" constant="9" id="1Af-vc-39X"/>
+                            <constraint firstItem="wSQ-Sp-bDH" firstAttribute="leading" secondItem="yut-hP-7bG" secondAttribute="leading" constant="3" id="1mk-yc-8wp"/>
+                            <constraint firstAttribute="bottom" secondItem="wSQ-Sp-bDH" secondAttribute="bottom" constant="42" id="1rU-e1-392"/>
+                            <constraint firstItem="hs4-F7-azB" firstAttribute="leading" secondItem="wSQ-Sp-bDH" secondAttribute="trailing" constant="8" id="8DH-gT-iip"/>
+                            <constraint firstAttribute="trailing" secondItem="hs4-F7-azB" secondAttribute="trailing" constant="8" id="8uQ-ui-pkG"/>
+                            <constraint firstAttribute="height" constant="97" id="9cS-ZR-Paj"/>
+                            <constraint firstItem="kgJ-S6-iAY" firstAttribute="leading" secondItem="yut-hP-7bG" secondAttribute="leading" constant="8" id="Aki-FB-Cti"/>
+                            <constraint firstItem="hi3-I5-DoP" firstAttribute="top" secondItem="yut-hP-7bG" secondAttribute="top" constant="14" id="ItP-wf-YSM"/>
+                            <constraint firstAttribute="trailing" secondItem="hi3-I5-DoP" secondAttribute="trailing" constant="8.5" id="J0k-bQ-J3m"/>
+                            <constraint firstItem="hs4-F7-azB" firstAttribute="top" secondItem="hi3-I5-DoP" secondAttribute="bottom" constant="4" id="P6Z-YM-SuS"/>
+                            <constraint firstAttribute="bottom" secondItem="kgJ-S6-iAY" secondAttribute="bottom" constant="16" id="TRD-Z4-PUW"/>
+                            <constraint firstItem="wSQ-Sp-bDH" firstAttribute="top" secondItem="yut-hP-7bG" secondAttribute="top" constant="14" id="a0C-3O-Nq6"/>
+                            <constraint firstItem="hs4-F7-azB" firstAttribute="top" secondItem="hi3-I5-DoP" secondAttribute="bottom" constant="4" id="arx-8n-L6I"/>
+                            <constraint firstItem="kgJ-S6-iAY" firstAttribute="top" secondItem="wSQ-Sp-bDH" secondAttribute="bottom" constant="11" id="cJY-7T-7GU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yut-hP-7bG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="4xu-tB-N8r"/>
+                    <constraint firstItem="yut-hP-7bG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="ndn-ca-MeW"/>
+                    <constraint firstAttribute="trailing" secondItem="yut-hP-7bG" secondAttribute="trailing" constant="22" id="xRC-Bn-mf0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bigView" destination="yut-hP-7bG" id="lQJ-Ca-Im8"/>
+                <outlet property="createdLabel" destination="kgJ-S6-iAY" id="swb-e9-aGX"/>
+                <outlet property="imageIcon" destination="wSQ-Sp-bDH" id="Hmf-fR-X0C"/>
+                <outlet property="messageLabel" destination="hs4-F7-azB" id="zO2-8y-0py"/>
+                <outlet property="sendToNameLabel" destination="hi3-I5-DoP" id="Adl-ss-G4l"/>
+            </connections>
+            <point key="canvasLocation" x="-40" y="166"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="MaskGroup1" width="54.5" height="54.5"/>
+    </resources>
+</document>

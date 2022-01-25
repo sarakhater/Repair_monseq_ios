@@ -1,0 +1,107 @@
+/* 
+  Localizable.strings
+  Almonaseq
+
+  Created by Nada El Hakim on 2/28/18.
+  Copyright © 2018 Nada El Hakim. All rights reserved.
+*/
+
+order.tip = "Select the technician and connect with hime. If not agreed,make a 'technician change' and choose another.";
+// Menu
+"menu.home" = "Home";
+"menu.materialList" = "Material list";
+"menu.profile" = "Edit Profile";
+"menu.chat" = " Messages";
+"menu.myOrder" = "My Orders";
+"menu.about" = "About us";
+"menu.faqs" = "Common Questions";
+"menu.settings" = "Settings";
+"menu.logout" = "Sign out";
+"menu.login" = "Sign in";
+"menu.contact" = "Contact Us";
+"menu.share" = "Share App";
+"menu.canceledOrder" = "Canceled Orders";
+"menu.pendingOrder" = "Pending Orders";
+"menu.CompletedOrder" = "Completed Orders";
+"menu.waitedOrder" = "Waiting Orders";
+"menu.notification" = "Notifications";
+
+//Repair Menu
+"menu.repair_about" = "About Repair";
+"menu.price_list" = "Price List";
+"menu.customer_services" = "Customer Services";
+"menu.register_as_tech" = "Register As Technician";
+"menu.settings" = "Settings";
+"menu.share.repair" = "Share Repair";
+"menu.logout" = "LogOut";
+
+
+// Orders
+orders.pending = "Pending";
+orders.completed = "Completed";
+orders.awaitingApproval = "Waiting";
+orders.accept = "Select Technician";
+orders.executionFinished = "Execution Finished";
+orders.addRate = "Add Rate";
+orders.cancelTechnician = "Cancel Technician";
+orders.cancelOrder = "Cancel Order";
+orders.alert.deleteOrder = "Are you  want to remove this Order?";
+orders.alert.title = "Alert";
+orders.alert.deleteTecnician = "Are you  want to cancel the Order Technician?";
+orders.alert.ok = "OK";
+orders.alert.cancel = "Cancel";
+orders.noRequets = "لا يوجد طلبات";
+order.canceled = "Execution Finished";
+// Register
+register.terms = "Terms & Conditions";
+
+// Form errors
+formErrors.required = "Complete required field  ";
+formErrors.checkTerms = "Please check the terms and conditions";
+formErrors.checkPhone = "Phone No must be(05xxxxxxxx)";
+
+formErrors.match = "Passwords don't match";
+
+// Welcome alert
+alert.title = "Ameen Organization";
+alert.message = "Welcomes and thanks you for using Fanni Al Ahsa - Service Requester. If you are a service provider, please install and use Fanni Al Ahsa - Service Provider";
+alert.cancel = "CLOSE";
+alert.downloadApp = "DOWNLOAD APP";
+
+//Language alert
+alert.ok = "OK";
+alert.confirm = "Confirm";
+alert.languageMessage = "Change App Language to Arabic";
+
+review.addComment = "Add comment";
+
+app.currency = "SR";
+actionsheet.selectservicetype = "Select Service Type";
+register.confirmPhoneNumber = " Confirm Mobile number ";
+register.confirmPassword = " Confirm password ";
+
+app.share.android  = "Share Ameen with Friends for android";
+app.share.ios  = "Share Ameen with Friends for iphone";
+waitlabel = "Please wait 3 minutes before resend code ";
+orlabel = " or ";
+
+rating.excellent = "Excellent";
+rating.vgood = "Very Good";
+rating.good = "Good";
+rating.bad = "Acceptable";
+rating.vbad = "Weak";
+rating.error = "Please select payment method first";
+
+register.checkConfirmPassword = "Please check password and confirm password are same";
+
+register.completeAllFields = "Please complete all fields";
+actionsheet.selectTypetype = "Select Type";
+actionsheet.selectBrandtype = "Select Brand";
+tab.services = "Services";
+tab.orders = "Orders";
+tab.notification = "Notifications";
+tab.about = "About";
+tab.contactus = "Contact Us";
+done = "Done";
+cancel = "Cancel";
+Description = "Description";

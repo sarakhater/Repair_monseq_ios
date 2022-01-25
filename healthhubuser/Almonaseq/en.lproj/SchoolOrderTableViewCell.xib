@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna-LT-Bold.ttf">
+            <string>JannaLT-Bold</string>
+        </array>
+        <array key="Janna-LT-Regular.ttf">
+            <string>JannaLT-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="320" id="KGk-i7-Jjw" customClass="SchoolOrderTableViewCell" customModule="صلح_Repair" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFb-0k-8GV">
+                        <rect key="frame" x="9" y="8" width="303" height="301"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-r" translatesAutoresizingMaskIntoConstraints="NO" id="oTn-ek-5s9">
+                                <rect key="frame" x="8" y="8" width="73" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="73" id="Qf1-O4-Pww"/>
+                                    <constraint firstAttribute="height" constant="63" id="mxH-da-6y9"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CwO-wh-i6r">
+                                <rect key="frame" x="89" y="23" width="142.5" height="15"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="vf8-cn-IJ9">
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="Sbd-DV-R2b"/>
+                                            <constraint firstAttribute="width" constant="16" id="bxA-LY-V3z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Condition Devices" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaH-96-OQJ">
+                                        <rect key="frame" x="24" y="0.0" width="118.5" height="15"/>
+                                        <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="14"/>
+                                        <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IMW-sA-C7d">
+                                <rect key="frame" x="89" y="50" width="53.5" height="15"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wall-clock" translatesAutoresizingMaskIntoConstraints="NO" id="J6j-0r-SHx">
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="16" id="Hhc-Lf-Dt1"/>
+                                            <constraint firstAttribute="height" constant="15" id="iDx-nA-keS"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBN-ah-BbI">
+                                        <rect key="frame" x="24" y="0.0" width="29.5" height="15"/>
+                                        <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="14"/>
+                                        <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1z-6m-2m4">
+                                <rect key="frame" x="97" y="80" width="109" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.21118947860000001" blue="0.40192675589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Uv3-NB-oEF"/>
+                                    <constraint firstAttribute="width" constant="109" id="XzV-MJ-jEG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="16"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbq-U5-F1c">
+                                <rect key="frame" x="8" y="118" width="287" height="1"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="GfG-EF-zAA"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="web-fB-NKo">
+                                <rect key="frame" x="18" y="130" width="192.5" height="118"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" id="xmd-Oo-mtU">
+                                        <rect key="frame" x="0.0" y="11" width="192.5" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="AiN-VR-71x">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="16" id="3Xs-Vl-PpG"/>
+                                                    <constraint firstAttribute="height" constant="15" id="b45-uc-Tg5"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Level Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95G-5b-qGM">
+                                                <rect key="frame" x="31" y="0.0" width="112.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="13"/>
+                                                <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHI-55-tfL">
+                                                <rect key="frame" x="158.5" y="0.0" width="34" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <viewLayoutGuide key="safeArea" id="vAI-99-ScE"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="cQs-ox-wMh">
+                                        <rect key="frame" x="0.0" y="34" width="192.5" height="15"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="WR0-1G-yF0">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="16" id="fkq-eo-pYL"/>
+                                                    <constraint firstAttribute="height" constant="15" id="xkp-3m-hD3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Class Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRU-XF-EOi">
+                                                <rect key="frame" x="31" y="0.0" width="112.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="13"/>
+                                                <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rs-ox-lvE">
+                                                <rect key="frame" x="158.5" y="0.0" width="34" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="vNM-fr-LNt">
+                                        <rect key="frame" x="0.0" y="57" width="192.5" height="15"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="5Kl-ym-rWn">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="15" id="kYf-Ay-0Qt"/>
+                                                    <constraint firstAttribute="width" constant="16" id="rmV-TS-hfu"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Guard Phone No:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuY-3v-WqX">
+                                                <rect key="frame" x="31" y="0.0" width="112.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="13"/>
+                                                <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jn0-Ld-i0a">
+                                                <rect key="frame" x="158.5" y="0.0" width="34" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="nPa-Ne-TZs">
+                                        <rect key="frame" x="0.0" y="80" width="192.5" height="15"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="foq-NY-Uua">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="16" id="gtf-ph-OGq"/>
+                                                    <constraint firstAttribute="height" constant="15" id="rDQ-Ts-ytz"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Condition Type:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZa-Sr-XBv">
+                                                <rect key="frame" x="31" y="0.0" width="112.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="13"/>
+                                                <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiF-QV-VZA">
+                                                <rect key="frame" x="158.5" y="0.0" width="34" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9I7-XZ-sXm">
+                                        <rect key="frame" x="0.0" y="103" width="192.5" height="15"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001-customer-support" translatesAutoresizingMaskIntoConstraints="NO" id="qLq-Um-2U7">
+                                                <rect key="frame" x="0.0" y="0.0" width="16" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="16" id="PYn-ap-Wg5"/>
+                                                    <constraint firstAttribute="height" constant="15" id="yDL-dO-9Ah"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Condition Brand:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VY7-wX-Ikh">
+                                                <rect key="frame" x="31" y="0.0" width="112.5" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="13"/>
+                                                <color key="textColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4X-t6-1H9">
+                                                <rect key="frame" x="158.5" y="0.0" width="34" height="15"/>
+                                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvF-zF-lcs">
+                                <rect key="frame" x="51.5" y="263" width="200" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Sgf-Xg-CrI"/>
+                                    <constraint firstAttribute="height" constant="30" id="tMT-ol-wb4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="JannaLT-Bold" family="Janna LT" pointSize="16"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CwO-wh-i6r" firstAttribute="leading" secondItem="oTn-ek-5s9" secondAttribute="trailing" constant="8" id="8WS-eK-O9j"/>
+                            <constraint firstItem="p1z-6m-2m4" firstAttribute="top" secondItem="IMW-sA-C7d" secondAttribute="bottom" constant="15" id="Cxn-GW-JhR"/>
+                            <constraint firstItem="oTn-ek-5s9" firstAttribute="top" secondItem="rFb-0k-8GV" secondAttribute="top" constant="8" id="HW5-if-oCL"/>
+                            <constraint firstAttribute="trailing" secondItem="qbq-U5-F1c" secondAttribute="trailing" constant="8" id="J8r-1M-GWv"/>
+                            <constraint firstItem="qbq-U5-F1c" firstAttribute="top" secondItem="p1z-6m-2m4" secondAttribute="bottom" constant="8" id="QaR-xI-Rjq"/>
+                            <constraint firstItem="qbq-U5-F1c" firstAttribute="leading" secondItem="rFb-0k-8GV" secondAttribute="leading" constant="8" id="S1y-AW-wde"/>
+                            <constraint firstItem="hvF-zF-lcs" firstAttribute="bottom" secondItem="rFb-0k-8GV" secondAttribute="bottomMargin" id="WPI-Jg-sAF"/>
+                            <constraint firstItem="web-fB-NKo" firstAttribute="leading" secondItem="rFb-0k-8GV" secondAttribute="leading" constant="18" id="XhW-Se-fJp"/>
+                            <constraint firstItem="IMW-sA-C7d" firstAttribute="leading" secondItem="oTn-ek-5s9" secondAttribute="trailing" constant="8" id="ape-48-mzc"/>
+                            <constraint firstItem="p1z-6m-2m4" firstAttribute="centerX" secondItem="rFb-0k-8GV" secondAttribute="centerX" id="eds-fx-PbQ"/>
+                            <constraint firstItem="web-fB-NKo" firstAttribute="top" secondItem="qbq-U5-F1c" secondAttribute="bottom" constant="11" id="fSN-T4-dDG"/>
+                            <constraint firstItem="oTn-ek-5s9" firstAttribute="leading" secondItem="rFb-0k-8GV" secondAttribute="leading" constant="8" id="fVI-1Y-4nO"/>
+                            <constraint firstItem="IMW-sA-C7d" firstAttribute="top" secondItem="CwO-wh-i6r" secondAttribute="bottom" constant="12" id="gHs-CG-5id"/>
+                            <constraint firstItem="hvF-zF-lcs" firstAttribute="centerX" secondItem="rFb-0k-8GV" secondAttribute="centerX" id="hOU-fl-5Us"/>
+                            <constraint firstItem="CwO-wh-i6r" firstAttribute="top" secondItem="rFb-0k-8GV" secondAttribute="top" constant="23" id="wtF-O6-mmP"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rFb-0k-8GV" secondAttribute="trailing" constant="8" id="CU1-m9-629"/>
+                    <constraint firstItem="rFb-0k-8GV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="UoD-Lv-fec"/>
+                    <constraint firstItem="rFb-0k-8GV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="pwS-yy-pmS"/>
+                    <constraint firstAttribute="bottom" secondItem="rFb-0k-8GV" secondAttribute="bottom" constant="11" id="xWo-hr-2J3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bigView" destination="rFb-0k-8GV" id="z9U-w7-rbA"/>
+                <outlet property="cancelBtn" destination="hvF-zF-lcs" id="zLD-tU-cqe"/>
+                <outlet property="classNoLabel" destination="qRU-XF-EOi" id="GZf-zF-WMa"/>
+                <outlet property="conditionBrandLabel" destination="VY7-wX-Ikh" id="Iz1-O9-IOW"/>
+                <outlet property="conditionTypeLabel" destination="BZa-Sr-XBv" id="LBd-DY-rGO"/>
+                <outlet property="guardPhoneLabel" destination="WuY-3v-WqX" id="T2v-GF-KM8"/>
+                <outlet property="levelNoLabel" destination="vHI-55-tfL" id="Ubr-4c-Snc"/>
+                <outlet property="requestImageView" destination="oTn-ek-5s9" id="lkg-wm-jUZ"/>
+                <outlet property="searchBtn" destination="p1z-6m-2m4" id="qeA-Fg-Lv2"/>
+                <outlet property="timelabel" destination="RBN-ah-BbI" id="VIv-Lm-cfp"/>
+                <outlet property="titleLabel" destination="iaH-96-OQJ" id="7iX-pl-1hD"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="186.83035714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="001-customer-support" width="11" height="11"/>
+        <image name="logo-r" width="221" height="147"/>
+        <image name="wall-clock" width="14" height="14"/>
+    </resources>
+</document>

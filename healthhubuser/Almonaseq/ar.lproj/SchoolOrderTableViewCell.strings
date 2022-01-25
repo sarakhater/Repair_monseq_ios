@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7rs-ox-lvE"; */
+"7rs-ox-lvE.text" = "Label";
+
+/* Class = "UILabel"; text = "Level Number:"; ObjectID = "95G-5b-qGM"; */
+"95G-5b-qGM.text" = "رقم الدور:";
+
+/* Class = "UILabel"; text = "Condition Type:"; ObjectID = "BZa-Sr-XBv"; */
+"BZa-Sr-XBv.text" = "نوع التكييف:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jn0-Ld-i0a"; */
+"Jn0-Ld-i0a.text" = "Label";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "RBN-ah-BbI"; */
+"RBN-ah-BbI.text" = "الوقت";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RiF-QV-VZA"; */
+"RiF-QV-VZA.text" = "Label";
+
+/* Class = "UILabel"; text = "Condition Brand:"; ObjectID = "VY7-wX-Ikh"; */
+"VY7-wX-Ikh.text" = "ماركة التكييف:";
+
+/* Class = "UILabel"; text = "Guard Phone No:"; ObjectID = "WuY-3v-WqX"; */
+"WuY-3v-WqX.text" = "رقم الحارس:";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hvF-zF-lcs"; */
+"hvF-zF-lcs.normalTitle" = "إلغاء";
+
+/* Class = "UILabel"; text = "Condition Devices"; ObjectID = "iaH-96-OQJ"; */
+"iaH-96-OQJ.text" = "أجهزة التكييف";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "p1z-6m-2m4"; */
+"p1z-6m-2m4.normalTitle" = "جاري البحث";
+
+/* Class = "UILabel"; text = "Class Number:"; ObjectID = "qRU-XF-EOi"; */
+"qRU-XF-EOi.text" = "رقم الفصل:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vHI-55-tfL"; */
+"vHI-55-tfL.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "x4X-t6-1H9"; */
+"gaE-YQ-cnq.text" = "المدينة:";

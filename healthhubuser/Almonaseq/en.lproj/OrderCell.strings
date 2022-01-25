@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "58C-zJ-zzh"; */
+"58C-zJ-zzh.text" = "Label";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Bax-ey-Vvd"; */
+"Bax-ey-Vvd.text" = "الاسم";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "E7F-ro-fpw"; */
+"E7F-ro-fpw.text" = "Status";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JxR-Rl-tNe"; */
+"JxR-Rl-tNe.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Njs-HJ-lqq"; */
+"Njs-HJ-lqq.text" = "Label";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "ONS-7F-31S"; */
+"ONS-7F-31S.text" = "Date";
+
+/* Class = "UILabel"; text = "Provider Information"; ObjectID = "P4b-l4-MOy"; */
+"P4b-l4-MOy.text" = "معلومات الفني";
+
+/* Class = "UILabel"; text = "Mobile"; ObjectID = "Qpp-Ha-Atz"; */
+"Qpp-Ha-Atz.text" = "الجوال";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "b02-gQ-2aY"; */
+"b02-gQ-2aY.text" = "Time";

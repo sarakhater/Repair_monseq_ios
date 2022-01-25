@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna-LT-Regular.ttf">
+            <string>JannaLT-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RepairHomeImageCollectionViewCell" id="gTV-IL-0wX" customClass="RepairHomeImageCollectionViewCell" customModule="صلح_Repair" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="110" height="149"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="110" height="149"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="provider" translatesAutoresizingMaskIntoConstraints="NO" id="3SY-p3-WOW">
+                        <rect key="frame" x="8" y="4" width="97" height="141"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="97" id="v3y-WI-qbo"/>
+                            <constraint firstAttribute="height" constant="141" id="z0v-nA-oQd"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F8d-7K-KGI">
+                        <rect key="frame" x="10" y="114" width="90" height="23"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="شنيور" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNE-lz-oBy">
+                                <rect key="frame" x="0.0" y="1" width="90" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Fn7-ar-oVe"/>
+                                    <constraint firstAttribute="width" constant="90" id="yim-Th-6zm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25341510769999998" green="0.18183425070000001" blue="0.66563689709999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MNE-lz-oBy" firstAttribute="centerX" secondItem="F8d-7K-KGI" secondAttribute="centerX" id="dQn-aU-2jR"/>
+                            <constraint firstItem="MNE-lz-oBy" firstAttribute="top" secondItem="F8d-7K-KGI" secondAttribute="top" constant="1" id="hCu-Yt-UWa"/>
+                            <constraint firstItem="MNE-lz-oBy" firstAttribute="centerY" secondItem="F8d-7K-KGI" secondAttribute="centerY" constant="-0.5" id="jsa-cB-Xwn"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="3SY-p3-WOW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="0p1-LS-H1T"/>
+                <constraint firstAttribute="bottom" secondItem="F8d-7K-KGI" secondAttribute="bottom" constant="12" id="56X-bY-Sud"/>
+                <constraint firstAttribute="trailing" secondItem="F8d-7K-KGI" secondAttribute="trailing" constant="10" id="JbZ-Qk-ikY"/>
+                <constraint firstItem="3SY-p3-WOW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="aDd-rO-0UX"/>
+                <constraint firstAttribute="bottom" secondItem="3SY-p3-WOW" secondAttribute="bottom" constant="4" id="e50-wV-j1b"/>
+                <constraint firstAttribute="trailing" secondItem="3SY-p3-WOW" secondAttribute="trailing" constant="5" id="hyR-6E-s49"/>
+                <constraint firstItem="F8d-7K-KGI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="nj6-qp-6dH"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="110" height="149"/>
+            <connections>
+                <outlet property="labelView" destination="F8d-7K-KGI" id="2B5-PM-hpd"/>
+                <outlet property="toolsImageView" destination="3SY-p3-WOW" id="6Lz-bl-geB"/>
+                <outlet property="toolsLabel" destination="MNE-lz-oBy" id="HoP-IU-30I"/>
+            </connections>
+            <point key="canvasLocation" x="2.8985507246376816" y="75.334821428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="provider" width="381" height="381"/>
+    </resources>
+</document>

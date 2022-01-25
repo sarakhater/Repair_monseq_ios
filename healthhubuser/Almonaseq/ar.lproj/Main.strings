@@ -1,0 +1,109 @@
+
+/* Class = "UIViewController"; title = "Intro"; ObjectID = "Sxb-gM-7p2"; */
+"Sxb-gM-7p2.title" = "مقدمة";
+
+/* Class = "UITableViewController"; title = "My orders"; ObjectID = "bog-6V-yIV"; */
+"bog-6V-yIV.title" = "طلباتي";
+
+/* Class = "UINavigationItem"; title = "Main menu"; ObjectID = "ebV-uj-JWO"; */
+"ebV-uj-JWO.title" = "القائمة الرئيسية";
+
+/* Class = "UIButton"; normalTitle = "Order Services"; ObjectID = "kYR-7n-Qdy"; */
+"kYR-7n-Qdy.normalTitle" = "طلب خدمات";
+
+/* Class = "UIButton"; normalTitle = "Order Materials"; ObjectID = "uSa-A4-nUr"; */
+"uSa-A4-nUr.normalTitle" = "طلب مواد";
+
+
+/* Class = "UILabel"; text = "School Services"; ObjectID = "pOK-uf-h88"; */
+"pOK-uf-h88.text" = "خدمات مدارس";
+
+
+/* Class = "UILabel"; text = "School Services"; ObjectID = "2Vr-da-W1V"; */
+"2Vr-da-W1V.text" = "خدمات أهالي";
+
+
+/* Class = "UILabel"; text = "Service Type:"; ObjectID = "TC2-Tq-Ulf"; */
+"TC2-Tq-Ulf.text" = ":نوع الخدمة";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "dVW-Tx-w2a"; */
+"dVW-Tx-w2a.text" = "المدينة:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "eSa-4e-oCq"; */
+"eSa-4e-oCq.text" = "التكلفة:";
+
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "x0v-TU-J0k"; */
+"x0v-TU-J0k.normalTitle" = "إلغاء";
+
+
+/* Class = "UILabel"; text = "Service Type:"; ObjectID = "TC2-Tq-Ulf"; */
+"Nkm-xb-lLv.text" = "نوع الخدمة:";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "dVW-Tx-w2a"; */
+"LfF-hI-07M.text" = "المدينة:";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "eSa-4e-oCq"; */
+"nDp-vw-SUu.text" = "التكلفة:";
+
+
+
+/* Class = "UIButton"; normalTitle = "Add Rate"; ObjectID = "C9s-qR-8g2"; */
+"C9s-qR-8g2.normalTitle" = "أضف تقييم";
+
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "gKE-2x-Yq1"; */
+"gKE-2x-Yq1" = "طلب جديد";
+
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "7sg-0T-QQe"; */
+"7sg-0T-QQe" = "رقم الفصل";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "GIa-WI-giU"; */
+"GIa-WI-giU" =  "جوال الحارس";
+
+
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "wZ6-DK-cou"; */
+"wZ6-DK-cou" =  "رقم الدور";
+/*Class = "UITextField"; placeholder = "" ; bjectID = "4Nx-Wa-6YR"; */
+"4Nx-Wa-6YR.placeholder" = "نوع التكييف";
+
+"PSx-sZ-6pG.placeholder" = "ماركةالتكييف";
+
+"g9r-FL-0pl.placeholder" = "وصف العطل";
+
+"7bi-Ar-vEk.placeholder" = "أولوية العطل";
+
+
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "wgL-Tz-0Ph"; */
+"wgL-Tz-0Ph.normalTitle" = "التالي";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "Ygi-gX-wwC"; */
+"Ygi-gX-wwC.normalTitle" = "تخطي";
+
+
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "4MM-Kj-Ens"; */
+"4MM-Kj-Ens" =  "البريد الالكتروني";
+
+
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "sya-3t-fTZ"; */
+"sya-3t-fTZ" =   "رقم الجوال";
+
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "SJU-aO-xgU"; */
+"SJU-aO-xgU" =   "رقم الجوال";
+
+"Gz0-g7-k3R" = "الخدمات";
+"4vd-jw-QJT" = "الطلبات";
+"klD-WW-WIQ" = "الخدمات";
+"PcK-cc-h89" = "الخدمات";
+"Kcz-0b-qdv" = "الاشعارات";
+"lZJ-t0-TcC" = "من نحن";
+"7BX-zB-1Cs" = "اتصل بنا";
+
+"ZkY-bE-QC8.placeholde" = "وقت الزيارة";
+"wZ2-RP-ZaF.placeholder" = "تاريخ الزيارة";

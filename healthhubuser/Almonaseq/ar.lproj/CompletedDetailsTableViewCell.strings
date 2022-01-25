@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "5/5"; ObjectID = "FRo-JB-OR8"; */
+"FRo-JB-OR8.text" = "5/5";
+
+/* Class = "UIButton"; normalTitle = "Edit Rate"; ObjectID = "HOu-V7-yfr"; */
+"HOu-V7-yfr.normalTitle" = "تعديل التقييم";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "QwW-Et-Vkq"; */
+"QwW-Et-Vkq.text" = "التكلفة:";
+
+/* Class = "UILabel"; text = "Service Type:"; ObjectID = "XEI-LC-MNO"; */
+"XEI-LC-MNO.text" = "نوع الخدمة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c9k-gt-f7r"; */
+"c9k-gt-f7r.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "efQ-Tt-W06"; */
+"efQ-Tt-W06.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hGx-iC-gO9"; */
+"hGx-iC-gO9.text" = "Label";
+
+/* Class = "UILabel"; text = "City:"; ObjectID = "ieM-sg-2HU"; */
+"ieM-sg-2HU.text" = "المدينة:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pKu-fF-rs3"; */
+"pKu-fF-rs3.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Completed"; ObjectID = "pRo-nh-SPZ"; */
+"pRo-nh-SPZ.normalTitle" = "مكتمل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wTF-kd-ri3"; */
+"wTF-kd-ri3.text" = "Label";

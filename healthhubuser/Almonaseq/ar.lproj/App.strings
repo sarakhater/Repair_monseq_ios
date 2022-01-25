@@ -1,0 +1,63 @@
+
+/* Class = "UIButton"; normalTitle = "Add Rating"; ObjectID = "0vm-P9-OaB"; */
+"0vm-P9-OaB.normalTitle" = "إضافة تقييم";
+
+/* Class = "UITableViewController"; title = "Review"; ObjectID = "3EW-E5-4ey"; */
+"3EW-E5-4ey.title" = "تقييم";
+
+/* Class = "UINavigationItem"; title = "about"; ObjectID = "7To-N0-AHl"; */
+"7To-N0-AHl.title" = "من نحن";
+
+/* Class = "UINavigationItem"; title = "Terms"; ObjectID = "974-H8-0wK"; */
+"974-H8-0wK.title" = "Terms";
+
+/* Class = "UINavigationItem"; title = "Your review"; ObjectID = "CWB-pa-jgG"; */
+"CWB-pa-jgG.title" = "تقييمك";
+
+/* Class = "UINavigationItem"; title = "Faqs"; ObjectID = "MUA-yL-9mv"; */
+"MUA-yL-9mv.title" = "الأسئلة الشائعة";
+
+/* Class = "UINavigationItem"; title = "Review"; ObjectID = "biP-j0-sZD"; */
+"biP-j0-sZD.title" = "تقييم";
+
+/* Class = "UIViewController"; title = "Terms"; ObjectID = "oFG-u4-EK8"; */
+"oFG-u4-EK8.title" = "Terms";
+
+/* Class = "UIViewController"; title = "About"; ObjectID = "tlE-OO-1wf"; */
+"tlE-OO-1wf.title" = "من نحن";
+
+/* Class = "UITextField"; placeholder = "Amount paid"; ObjectID = "x40-HY-tCH"; */
+"x40-HY-tCH.placeholder" = "المبلغ المدفوع";
+
+/* Class = "UIViewController"; title = "Faqs"; ObjectID = "y1Q-6M-vaW"; */
+"y1Q-6M-vaW.title" = "الأسئلة الشائعة";
+
+/* Class = "UILabel"; text = "SR"; ObjectID = "yuX-qA-hck"; */
+"yuX-qA-hck.text" = "ريال";
+
+/* Class = "UILabel"; text = "Phone: "; ObjectID = "0Fa-I0-97o"; */
+"0Fa-I0-97o.text" = "الجوال: ";
+
+/* Class = "UILabel"; text = "0578900015"; ObjectID = "ElA-eJ-YWJ"; */
+"ElA-eJ-YWJ.text" = "0578900015";
+
+/* Class = "UILabel"; text = "013594449"; ObjectID = "VXF-Li-TR2"; */
+"VXF-Li-TR2.text" = "013594449";
+
+/* Class = "UILabel"; text = "Telephone number: "; ObjectID = "W3S-Ur-TmM"; */
+"W3S-Ur-TmM.text" = "الهاتف: ";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "jdd-FU-X9n"; */
+"jdd-FU-X9n.normalTitle" = "English";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "rNa-HH-c81"; */
+"rNa-HH-c81.normalTitle" = "عربى";
+
+/* Class = "UILabel"; text = "Email: "; ObjectID = "txb-RD-E4i"; */
+"txb-RD-E4i.text" = "البريد الإلكتروني: ";
+
+/* Class = "UILabel"; text = "info@monasiq.com"; ObjectID = "w6C-FT-cRQ"; */
+"w6C-FT-cRQ.text" = "info@monasiq.com";
+
+/* Class = "UINavigationItem"; title = "Contact Us"; ObjectID = "wFh-Be-npS"; */
+"wFh-Be-npS.title" = "خدمة العملاء";

@@ -1,0 +1,29 @@
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "03f-zA-eX5"; */
+"03f-zA-eX5.text" = "Status";
+
+/* Class = "UILabel"; text = "OrderNo:"; ObjectID = "AUO-0E-AUy"; */
+"AUO-0E-AUy.text" = "رقم الطلب :";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "UTS-BY-wTv"; */
+"UTS-BY-wTv.text" = "العنوان";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "b7p-yS-1GG"; */
+"b7p-yS-1GG.text" = "time";
+
+/* Class = "UILabel"; text = "Name:"; ObjectID = "gtY-wQ-UEe"; */
+"gtY-wQ-UEe.text" = "Name:";
+
+/* Class = "UILabel"; text = "Provider Information"; ObjectID = "qdk-nP-U5p"; */
+"qdk-nP-U5p.text" = "بيانات الطبيب";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "tey-mC-LyR"; */
+"tey-mC-LyR.text" = "Description";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "wJ0-MX-IES"; */
+"wJ0-MX-IES.text" = "Date";
+
+
+/* Class = "UILabel"; text = "Service:"; ObjectID = "v0n-VT-O0h"; */
+"v0n-VT-O0h.text" = ":الخدمة";
+

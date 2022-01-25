@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel Order"; ObjectID = "1nS-lP-mWK"; */
+"1nS-lP-mWK.normalTitle" = "إلغاء الطلب";
+
+/* Class = "UILabel"; text = "OrderNo:"; ObjectID = "EQ1-NA-sqr"; */
+"EQ1-NA-sqr.text" = "رقم الطلب :";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "Qfu-hZ-gAL"; */
+"Qfu-hZ-gAL.text" = "التاريخ";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "RkB-mH-RQG"; */
+"RkB-mH-RQG.text" = "الحالة";
+
+/* Class = "UILabel"; text = "Address:"; ObjectID = "Szi-ko-1fZ"; */
+"Szi-ko-1fZ.text" = "العنوان: ";
+
+/* Class = "UIButton"; normalTitle = "Select Technian"; ObjectID = "gyQ-KG-tc9"; */
+"gyQ-KG-tc9.normalTitle" = "إختر الفني";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "qwQ-9l-hDH"; */
+"qwQ-9l-hDH.text" = "الوصف";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "sQd-Xc-1cS"; */
+"sQd-Xc-1cS.text" = "الوقت";
+
+/* Class = "UILabel"; text = service:; ObjectID = "YeZ-FZ-aqC"; */
+"YeZ-FZ-aqC.text" = "الخدمة:";
+
+/* Class = "UILabel"; text = Description:; ObjectID = "vhi-GA-0H1"; */
+"vhi-GA-0H1.text" = " الوصف:";

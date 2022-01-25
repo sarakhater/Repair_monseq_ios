@@ -1,0 +1,25 @@
+
+/* Class = "UILabel"; text = "time"; ObjectID = "DOK-U3-QXh"; */
+"DOK-U3-QXh.text" = "time";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "QMr-Jl-dRo"; */
+"QMr-Jl-dRo.text" = "Status";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "SkS-oh-7tA"; */
+"SkS-oh-7tA.text" = "الوصف";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "UzN-02-vQY"; */
+"UzN-02-vQY.text" = "Date";
+
+/* Class = "UILabel"; text = "OrderNo:"; ObjectID = "VSx-FV-xau"; */
+"VSx-FV-xau.text" = "رقم الطلب :";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "W5p-55-gjQ"; */
+"W5p-55-gjQ.text" = "العنوان:";
+
+
+/* Class = "UILabel"; text = "Service:"; ObjectID = "KzG-CQ-6ZH"; */
+"KzG-CQ-6ZH.text" = "الخدمة:";
+
+/* Class = "UILabel"; text = Description:; ObjectID = "oHn-KF-t0O"; */
+"oHn-KF-t0O.text" = "الوصف:";
